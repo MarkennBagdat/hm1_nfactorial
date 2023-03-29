@@ -1,0 +1,160 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    grid-auto-flow: column;
+}
+
+.f_item1{
+    background-color: red;
+    height: 30px;
+    width: 50%;
+}
+
+.f_item2{
+    background-color: blue;
+    height: 30px;
+    width: 50%;
+}
+
+/*ROW 2*/
+
+.f_item3{
+    background-color: rgb(0,128,1);
+    height: 30px;
+    width: 100%;
+}
+
+.f_item4{
+    background-color: blue;
+    height: 30px;
+    width: 2.5em;
+}
+
+/*Row 3*/
+
+.f_item5{
+    background-color: red;
+    height: 30px;
+    width: 2.5em;
+    justify-content: flex-start;
+}
+
+.f_item6{
+    background-color: rgb(0,128,1);
+    height: 30px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.f_item7{
+    background-color: blue;
+    height: 30px;
+    width: 2.5em;
+    justify-content: flex-start;
+}
+
+/* ROW 4*/
+
+.f_item8{
+    background-color: red;
+    height: 30px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.f_item9{
+    background-color: blue;
+    height: 30px;
+    width: 2.5em;
+    justify-content: flex-start;
+}
+
+/* ROW 5*/
+
+.container5{
+    display: grid;
+    margin: 1em;
+}
+
+.f_item10{
+    background-color: rgb(0,128,1);
+    height: 30px;
+    width: 100%;
+}
+
+.f_item11{
+    background-color: red;
+    height: 21px;
+    width: 21px;
+    margin: 0.3em auto;
+}
+
+
+/* ROW 6*/
+
+.container6{
+    display: flex;
+    margin: 1em;
+}
+
+.f_item12{
+    background-color: red;
+    height: 30px;
+    width: 100%;
+}
+
+.f_item13{
+    background-color: blue;
+    height: 30px;
+    width: 6em;
+}
+
+/* ROW 7*/
+
+.f_item14{
+    background-color: blue;
+    height: 30px;
+    width: 100%;
+}
+
+.f_item15{
+    background-color: red;
+    height: 30px;
+    width: 2.5em;
+}
+
+.f_item16{
+    background-color: rgb(0,128,1);
+    height: 10px;
+    margin: 0.6em auto;
+}
+
+
+/* ROW 8*/
+
+.f_item17{
+    background-color: rgb(255,165,0);
+    height: 30px;
+    width: 12em;
+}
+
+.f_item18{
+    background-color: rgb(0,128,1);
+    height: 30px;
+    width: 100%;
+}
+
+/* ROW 9*/
+
+.f_item19{
+    background-color: rgb(255,165,0);
+    height: 30px;
+    width: 100%;
+}
+
+.f_item20{
+    background-color: rgb(0,128,1);
+    height: 30px;
+    width: 3.5em;
+}
